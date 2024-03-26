@@ -14,6 +14,8 @@
 	<version>0.1.0-SNAPSHOT</version>
 
 	<dependencies>
+		<!-- + + + + + + + + + + compile dependencies + + + + + + + + + + -->
+		<!-- + + + + + internal voomdoon compile dependencies + + + + + -->
 		<dependency>
 			<groupId>de.voomdoon.java.threaddump</groupId>
 			<artifactId>java-thread-dump-model</artifactId>
@@ -24,6 +26,11 @@
 			<artifactId>vd-logging</artifactId>
 			<version>0.1.0-SNAPSHOT</version>
 		</dependency>
+		<!-- - - - - - internal voomdoon compile dependencies - - - - - -->
+		<!-- - - - - - - - - - - compile dependencies - - - - - - - - - - -->
+		
+		<!-- + + + + + + + + + + test dependencies + + + + + + + + + + -->
+		<!-- + + + + + internal voomdoon test dependencies + + + + + -->
 
 		<dependency>
 			<groupId>de.voomdoon.testing</groupId>
@@ -31,5 +38,7 @@
 			<version>0.1.0-SNAPSHOT</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- - - - - - internal voomdoon test dependencies - - - - - -->
+		<!-- - - - - - - - - - - test dependencies - - - - - - - - - - -->
 	</dependencies>
 </project>
