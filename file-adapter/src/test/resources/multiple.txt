@@ -1,0 +1,19 @@
+2024-03-07 09:32:38
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (17.0.4.1+1-LTS-2 mixed mode, sharing):
+
+Threads class SMR info:
+_java_thread_list=0x000001f96ec2f2e0, length=85, elements={
+0x000001f93dd801b1,
+0x000001f93dd801b2
+}
+
+"1" #1 prio=6 os_prio=0 cpu=117125.00ms elapsed=74322.73s tid=0x000001f93dd801b1 nid=0x8b6ec runnable  [0x000000a7513fe000]
+   java.lang.Thread.State: RUNNABLE
+	at org.eclipse.swt.internal.win32.OS.WaitMessage(Native Method)
+
+"2" #1 prio=6 os_prio=0 cpu=117125.00ms elapsed=74322.73s tid=0x000001f93dd801b2 nid=0x8b6ec runnable  [0x000000a7513fe000]
+   java.lang.Thread.State: RUNNABLE
+	at org.eclipse.swt.internal.win32.OS.WaitMessage(Native Method)
+
+JNI global refs: 213, weak refs: 45
+
