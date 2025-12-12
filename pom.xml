@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>de.voomdoon</groupId>
 		<artifactId>vd-parent</artifactId>
-		<version>0.1.0-SNAPSHOT</version>
+		<version>0.2.1</version>
 	</parent>
 
 	<groupId>de.voomdoon.java.threaddump</groupId>
