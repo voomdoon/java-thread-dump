@@ -6,7 +6,8 @@
 	<parent>
 		<groupId>de.voomdoon.util</groupId>
 		<artifactId>vd-util-parent</artifactId>
-		<version>0.2.1</version>
+		<version>0.2.2</version>
+		<relativePath />
 	</parent>
 
 	<groupId>de.voomdoon.java.threaddump</groupId>
